@@ -13,15 +13,13 @@
 
 ---
 
-## Cause and effect in systems that change
+## Dynamic Causality for a Dynamic World
 
-Most software that predicts anything runs on correlation. A model reads what happened before, finds the patterns that held, and assumes they will hold again. This works right up to the moment the system itself changes.
-
-Equities and bonds move in opposite directions for a decade, then fall together on a single afternoon. Steel deforms in proportion to load until it yields, and then it does not. An aircraft answers the stick one way in clean airflow and another way in a stall. The variables stayed the same. The relationships between them did not.
+A dynamic world changes continuously and so do its causal factors. Equities and bonds move in opposite directions for a decade, then fall together on a single afternoon. Steel deforms in proportion to load until it yields, and then it does not. An aircraft navigates one way in clean airflow and another way in a turbulence. The variables stayed the same, but governing regime changes, relations between them change and they change dynamically. 
 
 Causal reasoning asks what produces what, and what follows if you change something. Judea Pearl separated that into three levels: what you observe, what happens when you intervene, and what would have happened had the past gone differently.
 
-DeepCausality answers all three. The causal structure itself can also move while the program runs. A system can add, retire, or rewire rules as it crosses from one regime into another, and time need not run in a straight line. That is what the project means by **dynamic causality**.
+In DeepCausality, the causal structure itself can also move. A system can add, retire, or rewire rules as it crosses from one regime into another, and time need not run in a straight line. That is what the project means by **dynamic causality**.
 
 ## What it looks like
 
